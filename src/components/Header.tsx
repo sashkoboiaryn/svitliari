@@ -4,8 +4,8 @@ import { Container, Box } from "@mui/system";
 const Header = () => {
   return (
     <>
-      <Container className="header_container">
-        <Box></Box>
+      <Container className="header_container" sx={{ height: "100hv" }}>
+        <Box>Heade</Box>
       </Container>
     </>
   );
