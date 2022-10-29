@@ -1,4 +1,6 @@
-@import 'reset-css';
+@import './components/settings.scss';
+@import './components/header.scss';
 
-@import 'components';
-@import 'containers';
+body {
+    margin: 0;
+}

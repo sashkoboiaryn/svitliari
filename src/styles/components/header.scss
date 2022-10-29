@@ -1,0 +1,31 @@
+.header{
+    &_container {
+        display: block;
+        margin: 0;
+        height: 70px;
+        width: 100%;
+        background: rgb(221, 221, 221);
+        padding-top: 25px;
+    }
+
+    &_items_container {
+        padding: 0 10vw 0 10vw;
+        display: flex;
+        justify-content: space-between
+    }
+    
+    /* &_buttons_box {
+        display: flex;
+        justify-content: space-between
+    } */
+
+    &_input {
+        border: 1px solid rgb(187, 187, 187);
+        width: 100px;
+        border-bottom: none;
+    }
+
+    .MuiButton-root {
+        border: 1px solid grey;
+    }
+}
