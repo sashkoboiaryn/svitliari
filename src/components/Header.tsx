@@ -8,14 +8,26 @@ const Header = () => {
     <>
       <div className="header_container">
         <Box className="header_items_container">
-          <Box className="header_logo">LOGO</Box>
-          {/* <Stack className="header_buttons_box" spacing={2} direction="row"> */}
-          <Button variant="text">Головна</Button>
-          <Button variant="text">Майстри</Button>
-          <Button variant="text">Про Нас</Button>
-          {/* </Stack> */}
-          <input className="header_input" />
-          <Button variant="text">Увійти</Button>
+          <Box className="header_left_items">
+            <Box className="header_logo">
+              <img
+                src="https://www.freepnglogos.com/uploads/camera-logo-png/camera-outline-icon-27.png"
+                alt="logo"
+              />
+            </Box>
+            <Button variant="text">Головна</Button>
+            <Button variant="text">Майстри</Button>
+            <Button variant="text">Про Нас</Button>
+          </Box>
+          <Box className="header_right_items">
+            <TextField
+              id="filled-search"
+              placeholder="Search"
+              type="search"
+              variant="outlined"
+            />
+            <Button variant="outlined">Увійти</Button>
+          </Box>
         </Box>
       </div>
     </>
